@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-survey.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+  <main>
+    <h1 id="title">Survey page</h1>
+    <p id="description">
+      *Please fill in the form
+    </p>
+    <form id="survey-form">
+
+
+      <label for="name" id="name-label">First Name: </label>
+      <input type="text" id="name" placeholder="John" required><br><br>
+
+      <label for="lastName" id="lastName-label">Last Name: </label>
+      <input type="text" id="lastName" placeholder="Wick" required><br><br>
+      
+       
+      <label for="email" id="email-label">Email: </label>
+      <input type="email" id="email" placeholder="example@gmail.com" required><br><br>
+
+      <label for="number" id="number-label">Days: </label>
+      <input type="number" id="number" min="1" max="10" placeholder="1"><br><br>
+
+      <label for="dropdown" id="dropdown-label">Brand: </label>
+      <select id="dropdown">
+          <option value="Volvo">Volvo</option>
+          <option value="Audi" selected>Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Lexus">Lexus</option>
+      </select><br><br>
+
+      <label for="car">Number of the doors: </label>
+      <input type="radio" id="car" name="car" value="4" checked>4 Doors
+      <input type="radio" id="car" name="car" value="2">2 Doors<br><br>
+      
+
+      <label for="vechicle">Type: </label>
+      <input type="checkbox" id="vechicle" value="Hatchback">Hatchback
+      <input type="checkbox" id="vechicle" value="SUV">SUV
+      <input type="checkbox" id="vechicle" value="Sedan" checked>Sedan<br><br>
+
+      <label for="textArea">Please leave comment below: </label><br><br>
+      <textarea id="textArea" rows="4" cols="50">
+            </textarea><br><br>
+
+      <input type="submit" id="submit">
+      </fieldset>
+    </form>
+
+  </main>
+  <footer><a href="https://github.com/rashad25evans" target="_blank">Coded by Rashad Makhmudov</a></footer>
+</body>
+
+</html>

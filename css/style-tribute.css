@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-size:100%;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: rgb(71, 69, 69);
+}
+
+header
+{
+    background-color: #f1f1f1;
+    max-width: 100%;
+    background-image: url("https://image.ibb.co/eJKXaq/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 413px;
+}
+
+#title
+{
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    padding-top: 5%;
+}
+
+
+#tribute-info h1
+{
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+#tribute-info
+{
+    font-size: 1em;
+    text-align: justify;
+    margin: 2% 0% 2% 2%;
+}
+
+#img-div
+{
+    margin: 4% 0% 0% 2%;
+    float: right;
+}
+
+#image
+{
+    border: 5px solid rgb(173, 32, 32);   
+    max-width: 100%;
+}
+
+#img-caption
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+.disco,a
+{
+    margin-left: 4%;
+}
+
+footer
+{
+    padding: 20px 0px 20px 0;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer a
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    #tribute-info{
+        max-width: 100%;
+        text-align: justify;
+        margin: 2%;
+    }
+
+    #image{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #img-div{
+        margin-top: 2%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 645px){
+    header{
+        background-size: 100%;
+    }
+
+    #title{
+        margin-top:15%;
+        font-size: 1.5em;
+    }
+
+} 
